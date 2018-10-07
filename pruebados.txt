@@ -1,0 +1,13 @@
+$ git config --global user.name "padaes"
+git config --global user.email "ealbertoromeror@gmail.com"
+git congfig --list
+clear
+cd desktop
+cd piensadigital
+cd proyectos
+git init
+git add holaprueba.txt
+git status
+git commit -m "esto es un commit de pruebas"
+git remote add holaprueba https://github.com/padaes/seminarioWeb.git
+git push -u holaprueba master
